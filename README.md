@@ -1,4 +1,8 @@
+* **20.01.07 ~ 20.01.08 멀티 캠퍼스 Git 특강 교육 내용 정리**
+* 
+
 # **Git**
+
 > 인용문 정의하거나 주의할 점 핵심 내용으로 주로 쓰임
 
 > Git은 DVCS, 분산 버전 관리 시스템
@@ -55,7 +59,7 @@ Changes to be committed:
 $git commit -m '커밋메세지'
 ````
 * 해쉬값이 고유한 커밋 의미
-    
+  
     예) e93991d982a9e09e0a06d0017434498925ab4390 
 * 커밋메시지는 반드시 현재 작업 내용을 나타낼 수 있도록 작성하는 것이 중요하다.
 ---
@@ -105,7 +109,8 @@ $git remote add origin git remote add origin https://github.com/Keemhs1210/ firs
     $git remote -v
     origin http:s//github.com/Keemhs1210/first.git(fetch)
     origin http:s//github.com/Keemhs1210/first.git(push)
-
+````
+    
 * 설정된 원격 저장소 삭제하기
     ````bash
     $git remote rm origin
@@ -227,6 +232,7 @@ venv # 특정 폴더
 ### **branch 예제** 
 ### 준비사항
 * git 로컬 저장소
+  
   * 루트 커밋이 반드시 있어야함. (한번 커밋!)
 * 기본 작업의 흐름
   ````bash
@@ -264,9 +270,9 @@ venv # 특정 폴더
    ````
 3. master 이동
    ````bash
-  $git checkout master
-  $git log --oneline
-  (HEAD -> master) Add README.md
+    $git checkout master
+    $git log --oneline
+    (HEAD -> master) Add README.md
    ````
 4. master에 병합
   ````bash
@@ -365,7 +371,7 @@ venv # 특정 폴더
   $git add .
   $git commit -m "Update README"
   ````
-   
+
 5. master에 병합
   ````bash
   $git merge feature/about #충돌 발생
@@ -482,4 +488,3 @@ $git log --oneline #log를 확인해보면 커밋의 Hash 값이 변경되어 �
   $git config --global user.email '______'
 ````
 *자격증명관리 -> windwos 자격 증명 github.com 내용 reset하여 사용해야한다.
-## VScode로 커밋 메시지 편집하기 

@@ -1,0 +1,21 @@
+git init -저장소 초기화
+git status - 상태보기
+git add. -버전에 기록될 파일 추가
+git commint -m "커밋 내용" - 커밋(버전)
+git log - 커밋을 확인 
+markdown 많이 쓰임
+gitlab은 보안성있는 서버 구축에 활용한다, 자체 서버 구축 가능
+.md -> markdown 언어 
+마크다운을 활용하여 문서 정리를 한다. 
+git status에서 빨간색 글씨는 작업 영역에 존재, 초록색 글씨는 staging area에 존재
+staging area는 중간영역 (commit 확정하는 곳의 중간 영역)
+commit 된 영역은 log를 통해 확인한다. 
+push 했을때 모든 것을 푸쉬하고 보여지는것은 최신 버전만 보여준다.
+
+블로그 Gatsby(mark down -> html/css 변환), Jekyll -> 오래 동안 많이 쓰여 자료가 많다
+init으로 저장소를 만들면 .git 생성, 워킹 디렉토리 add를 해주어 staging area로 옮겨줌 commit해주어 commist으로 버전별로 저장한다. git에 올리고 싶다면 push
+한다. push할때 실제 명령어가 올라가는 것이아니라 최신 상태가 보이는 것 뿐이다. push할 때 origin이름으로 하는 url 주소에 연결시켜줘야 한다.
+명령어를 기억하고 쓰면 힘듬 스티커 메모를 활용하여 용어 정리
+
+파이참 => IDE(통합 개발 환경)
+VScode => Text Editor
